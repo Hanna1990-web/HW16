@@ -25,10 +25,9 @@ console.log(cleanCountry.toLowerCase());
 console.log(cleanCity.length);
 console.log(cleanCountry.length);
 
-console.log(cleanCity.includes("a"));
-
-console.log(cleanCity.indexOf("a"));
-console.log(cleanCity.lastIndexOf("a"));
+console.log(cleanCity.toLowerCase().includes("a"));
+console.log(cleanCity.toLowerCase().indexOf("a"));
+console.log(cleanCity.toLowerCase().lastIndexOf("a"));
 
 console.log(`I live in ${cleanCity}, ${cleanCountry}.`);
 
@@ -43,3 +42,6 @@ const result = a / b;
 console.log(Math.round(result));
 console.log(Math.floor(result));
 console.log(Math.ceil(result));
+
+console.log(Math.max(a, b));
+console.log(Math.min(a, b));
